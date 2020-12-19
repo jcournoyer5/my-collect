@@ -4,7 +4,5 @@ def my_collect(languages)
  return languages.upcase
   end
 end
-    students do |student|
-         student.split(" ").first
-     end
+   
 
