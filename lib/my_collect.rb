@@ -1,13 +1,7 @@
- def my_collect
-     array do |x|
-         thing += 1
-       end
+baked_goods = "[babka, muffins, tarts]"
 
-(my_collect(languages) do |language|
-         language.upcase
-       end).to eq(["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"])
-     
-     my_collect(students) do |student|
-          student.split(" ").first
-      end
- end
+def menu(baked_goods)
+    my_collect(baked_goods) do |name|
+  name.split(" ").first
+end 
+end
