@@ -1,7 +1,8 @@
 def my_collect(array)
 	result = []
-	
-end
+	 result.split(" ").first
+	 result.upcase
+end 
 
 
 
