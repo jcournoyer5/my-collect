@@ -1,6 +1,3 @@
-
-   def my_collect
-   my_collect(empty) 
-         empty
-   end
-  
+def create_an_empty_array
+ []
+end
