@@ -1,7 +1,7 @@
 def my_collect(array)
 	result = []
-while result
-    yield(array.result)
+while
+    yield
     array
 end
 end
