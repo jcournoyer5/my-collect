@@ -1,5 +1,5 @@
- def my_collect
- my_collect(Array) do |x|
+ def my_collect(array) 
+     array do |x|
          thing += 1
        end
 
