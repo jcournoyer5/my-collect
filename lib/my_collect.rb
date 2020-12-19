@@ -1,6 +1,6 @@
 
    def my_collect
-   my_collect(empty) do |x|
+   my_collect(empty) 
          empty
-       end
    end
+  
