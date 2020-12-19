@@ -1,13 +1,12 @@
 def my_collect(languages)
  languages do |languages|
   i += 1
- return languages.upcase
- end
-end
+  while i < languages.length
 
-def my_collect(students) 
+ return languages.upcase
+  end
+end
     students do |student|
          student.split(" ").first
      end
-
 end
