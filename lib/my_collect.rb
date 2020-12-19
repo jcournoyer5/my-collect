@@ -1,5 +1,8 @@
-def students
-my_collect(students) do |student|
- student.split(" ").first
+def my_collect(languages)
+ languages do |languages|
+  i += 1
+ end
 end
-end
+
+
+
