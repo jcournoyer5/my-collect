@@ -1,6 +1,7 @@
+brothers = ["Tom", "Tim", "Jim"]
 
-def my_collect(collection)
-collection do |lang|
-  lang.upcase
-end
+count = 0
+while count <= brothers.length-1
+ puts "Stop hitting yourself #{brothers[count]}!"
+ count += 1
 end
