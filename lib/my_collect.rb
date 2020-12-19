@@ -1,12 +1,8 @@
 def my_collect(array)
 	result = []
-array do |lang|
-    while array < lang.length
-        
- result.upcase
-    end
+
 end
-end
+
 
 
 
