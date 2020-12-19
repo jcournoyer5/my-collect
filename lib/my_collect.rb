@@ -1,6 +1,10 @@
 def my_collect(array)
-	result = []
+#	result = []
+my_collect(array) do |lang|
+ lang.upcase
 end
+end
+
 
 
 
@@ -10,5 +14,12 @@ end
  #return languages.upcase
   #end
 #end
+
+#set index variable to first index
+
+# while index is less than the length of our array do
+
+	#increase index by 1
+# end
    
 
