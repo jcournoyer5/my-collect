@@ -8,6 +8,7 @@ while i < array.length
    i += 1
    
 end
+collection
 end
 collection
 end
