@@ -1,5 +1,5 @@
 def my_collect(array)
-    array do |collection|
+    collection do |collection|
 	#result = []
 	i = 0
 	collection = []
