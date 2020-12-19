@@ -6,11 +6,9 @@ def my_collect(array)
 while i < array.length
     collection << yield(array[i])
    i += 1
-   
+return collection
 end
-collection
 end
-collection
 end
 
 #def my_collect(languages)
