@@ -1,6 +1,6 @@
 def my_collect(array)
 	result = []
-result do |lang|
+array do |lang|
  result.upcase
 end
 end
