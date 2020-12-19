@@ -1,8 +1,6 @@
 def my_collect(array)
-	result = []
-array do |lang|
+#array do |lang|
  result.upcase
-end
 end
 
 
